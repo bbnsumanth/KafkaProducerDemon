@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="kafkaproducerdemon$sbt_2.11"
+		revision="1.0"
+		status="integration"
+		publication="20160211183415"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.8" conf="default->default(compile)"/>
+		<dependency org="net.virtual-void" name="sbt-dependency-graph" rev="0.7.5" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="com.github.mdr" name="ascii-graphs_2.10" rev="0.0.3" conf="default->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
+		<dependency org="com.cavorite" name="sbt-avro" rev="0.3.2" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="org.apache.avro" name="avro" rev="1.7.5" conf="default->default(compile)"/>
+		<dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13" conf="default->default(compile)"/>
+		<dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13" conf="default->default(compile)"/>
+		<dependency org="com.thoughtworks.paranamer" name="paranamer" rev="2.3" conf="default->default(compile)"/>
+		<dependency org="org.xerial.snappy" name="snappy-java" rev="1.0.5" conf="default->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-compress" rev="1.4.1" conf="default->default(compile)"/>
+		<dependency org="org.tukaani" name="xz" rev="1.0" conf="default->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.4" conf="default->default(compile)"/>
+		<dependency org="org.apache.avro" name="avro-compiler" rev="1.7.5" conf="default->default(compile)"/>
+		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="default->default(compile)"/>
+		<dependency org="org.apache.velocity" name="velocity" rev="1.7" conf="default->default(compile)"/>
+		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" conf="default->default(compile)"/>
+	</dependencies>
+</ivy-module>
